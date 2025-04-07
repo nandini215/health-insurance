@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+        
+</head>
+<body >
+	
+        <form action="/file" method="post" enctype="multipart/form-data">
+			<div class="form-group">				
+				<input type="text" name="patId" />
+				<input type="file" name="file" />
+		        <button id="buttonMain" type="submit" class="btn btn-primary">add file to chain</button>
+			</div>
+		</form>
+		<br>
+        <form action="/fileget" method="post">
+			<div class="form-group">
+				
+				<input type="text" name="hash" />
+		        <button id="buttonMain" type="submit" class="btn btn-primary">get file from chain</button>
+			</div>
+		</form>
+
+		<form action="/listfiles" method="post">
+			<div class="form-group">			
+				<input type="text" name="hash" />	
+		        <button id="buttonMain" type="submit" class="btn btn-primary">get files</button>
+			</div>
+		</form>
+		
+		
+		<form action="/getbc" method="post">
+			<div class="form-group">			
+		        <button id="buttonMain" type="submit" class="btn btn-primary">get bc</button>
+			</div>
+		</form>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+</body>
+</html>
