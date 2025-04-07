@@ -7,7 +7,7 @@ A responsive web application to manage hospital operations and insurance workflo
 
 🔐 Hospital Admin Login
 ![image](https://github.com/user-attachments/assets/4abbead2-a7dc-4afa-acf0-2ba0642bcc04)
-
+ 
 
 📅 Appointment Booking
 
